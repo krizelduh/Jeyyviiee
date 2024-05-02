@@ -1,0 +1,830 @@
+
+@font-face {
+	font-family: "Kimberley";
+	src: url(http://www.princexml.com/fonts/larabie/kimberle.ttf) format("truetype");
+  }
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	min-height: auto;
+	display: flex;
+	flex-direction: column;
+	background-image: url("images/bg1.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+
+.neoT{
+	text-align: center;
+	margin-top: 15%;
+}
+.neoT h1{
+	font-size: 72px;
+	letter-spacing: 8px;
+	font-family: "Audiowide", sans-serif;
+}
+
+.albumInfo{
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	
+}
+
+.albumFrame{
+	width: 98%;
+	height: 350px;
+	margin-left: 1%;
+	margin-top: 1%;
+	margin-bottom: 5%;
+	background-color: #eee;
+	box-shadow: 0px 15px 20px rgba(0,0,0,0.2);
+	
+}
+
+.albumFrame .albumI{
+	width: 50%;
+	height: 100%;
+	border: 1px solid white;
+	display: inline-block;
+	background-image: url("images/f1.jpg");
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+.albumI h1{
+	margin-left: 110%;
+	margin-top: 13%;
+	width: 50%;
+
+}
+
+.albumI p{
+	margin-left: 110%;
+	margin-top: 5%;
+	width: 50%;
+	font-size: 20px;	
+}
+
+.albumI .p1{
+	margin-left: 110%;
+	margin-top: 5%;
+	width: 70%;
+	font-size: 20px;	
+}
+
+.albumI2 h1{
+	margin-left: 110%;
+	margin-top: 13%;
+	width: 50%;
+
+}
+
+.albumI2 p{
+	margin-left: 110%;
+	margin-top: 5%;
+	width: 50%;
+	font-size: 20px;	
+}
+
+.albumI2 .p1{
+	margin-left: 110%;
+	margin-top: 5%;
+	width: 70%;
+	font-size: 20px;	
+}
+
+.albumI3 h1{
+	margin-left: 110%;
+	margin-top: 13%;
+	width: 50%;
+
+}
+
+.albumI3 p{
+	margin-left: 110%;
+	margin-top: 5%;
+	width: 50%;
+	font-size: 20px;	
+}
+
+.albumI3 .p1{
+	margin-left: 110%;
+	margin-top: 5%;
+	width: 70%;
+	font-size: 20px;	
+}
+
+
+.albumInfo .albumFrame2{
+	width: 98%;
+	height: 350px;
+	margin-left: 1%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	background-color: #eee;
+	box-shadow: 0px 15px 20px rgba(0,0,0,0.2);
+}
+
+.albumI2{
+	width: 50%;
+	height: 100%;
+	border: 2px solid white;
+	display: inline-block;
+	background-image: url("images/f2.jpg");
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+.albumInfo .albumFrame3{
+	width: 98%;
+	height: 350px;
+	margin-left: 1%;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	background-color: #eee;
+	box-shadow: 0px 15px 20px rgba(0,0,0,0.2);
+}
+
+
+.albumI3{
+	width: 50%;
+	height: 100%;
+	border: 2px solid white;
+	display: inline-block;
+	background-image: url("images/f3.jpg");
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+
+.albumSec{
+	margin-top: 90px;
+	margin-bottom: 50px;
+	padding-left: 8%;
+	height: 250px;
+	width: 100%;
+	
+}
+
+.albumSec .album{
+	width: 300px;
+	height: 100%;
+	border: 2px solid white;
+	display: inline-block;
+	background-image: url("images/frame1.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 0px 15px 20px rgba(0,0,0,0.2);
+}
+.albumSec .album2{
+	width: 300px;
+	height: 100%;
+	border: 2px solid white;
+	display: inline-block;
+	margin-left: 50px;
+	background-image: url("images/frame2.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 0px 15px 20px rgba(0,0,0,0.2);
+}
+
+.albumSec .album3{
+	width: 300px;
+	height: 100%;
+	border: 2px solid white;
+	display: inline-block;
+	margin-left: 50px;
+	background-image: url("images/frame3.jpg");
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+	box-shadow: 0px 15px 20px rgba(0,0,0,0.2);
+}
+
+.albumSec .album4{
+	width: 300px;
+	height: 100%;
+	border: 2px solid white;
+	display: inline-block;
+	margin-left: 50px;
+	background-image: url("images/frame4.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 0px 15px 20px rgba(0,0,0,0.2);
+}
+
+.albumSec .album5{
+	width: 300px;
+	height: 100%;
+	border: 2px solid white;
+	display: inline-block;
+	margin-left: 50px;
+	background-image: url("images/frame5.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 0px 15px 20px rgba(0,0,0,0.2);
+	
+}
+.album:hover{
+	background-size: 180%;
+	transition: all 0.4 ease 0s;
+	
+	
+}
+.album2:hover{
+	background-size: 140%;
+	transition: all 0.4 ease 0s;
+}
+.album3:hover{
+	background-size: 130%;
+	transition: all 0.4 ease 0s;
+}
+.album4:hover{
+	background-size: 130%;
+	transition: all 0.4 ease 0s;
+}
+
+.album5:hover{
+	background-size: 140%;
+	transition: all 0.4 ease 0s;
+}
+
+
+
+
+.homeT p{
+	width: 100%;
+	padding-top: 180px;
+	font-size: 65px;
+	color: black;
+	padding-left: 70px;
+	font-weight: bold;
+	text-align: center;
+	font-family: "Trirong", serif;
+}
+
+.homeT2{
+	padding-top: 0px;
+	font-size: 55px;
+	color: black;
+	font-weight: normal;
+	font-family: "Trirong", serif;
+	
+}
+
+
+.aboutT2{
+	padding-top: 130px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.aboutT2 p{
+	
+	font-size: 22px;
+	color: black;
+	font-weight: normal;
+	text-align: center;
+}
+
+nav{
+	width: 100%;
+	height: 75px;
+	line-height: 75px;
+	padding: 0px 100px;
+	position: fixed;
+	background-color: green;
+	
+}
+
+nav .logo{
+	font-size: 25px;
+	font-weight: bold;
+	float: left;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	cursor: pointer;
+}
+
+nav .logo .logoT1 {
+	font-family: "Audiowide", sans-serif;
+	color:red;
+	font-size: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+	float: left;
+	
+	
+}
+
+.logoT1:hover{
+	rotate: 360deg;
+	transition-delay: 0.4;
+	transition-duration: 1s;
+}
+.logoT2:hover{
+	rotate: 360deg;
+	transition-delay: 0.4;
+	transition-duration: 1s;
+}
+.logoT3:hover{
+	rotate: 360deg;
+	transition-delay: 0.4;
+	transition-duration: 1s;
+}
+
+nav .logo .logoT2 {
+	font-family: "Audiowide", sans-serif;
+	color:white;
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	float: left;
+}
+
+nav .logo .logoT3 {
+	font-family: "Audiowide", sans-serif;
+	color:white;
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	float: left;
+}
+
+nav ul {
+	float: right;
+	
+}
+
+nav li {
+	display: inline-block;
+	list-style: none;
+	
+}
+
+nav li a{
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 0px 30px;
+	color: white;
+	text-decoration: none;
+	
+}
+
+nav li a:hover{
+	color:black;
+	transition: all 0.4 ease 0s;
+	
+}
+
+.horizontal_line{
+	margin-top: 100px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+footer{
+	background-color: green;
+	margin-top: auto;
+	
+}
+
+.footerContainer {
+	width: 100%;
+	line-height: 100%;
+	padding: 40px 30px 20px;
+	
+
+}
+.footerB{
+	text-align: center;
+
+}
+
+
+.sidebar{
+	width: 95%;
+	border-radius: 5px;
+	background-color: #eee;
+	margin-left: 20px;
+	padding: 15px;
+	text-align: center;
+  }
+  .head{
+	background-color: goldenrod;
+	border-radius: 3px;
+	height: 40px;
+	padding: 10px;
+	margin-bottom: 20px;
+	color: white;
+	display: flex;
+	align-items: center;
+  }
+  .foot{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0px;
+	padding: 10px 0px;
+	border-top: 1px solid #333;
+  }
+
+
+.cashReg{
+	width: 90%;
+	height: auto;
+	margin-left: 5%;
+	margin-bottom: 100px;
+	border: 1px solid black;
+}
+
+.cashReg .cashRegHead{
+	width: 100%;
+	height: 150px;
+	border: 1px solid green;
+	background-color: green;
+}
+
+.cashRegHead h1{
+	text-align: center;
+	margin-top: 2%;
+	font-family: "Audiowide", sans-serif;
+	font-size: 58px;
+	letter-spacing: 10px;
+	color: white;
+	
+}
+
+.cashRegAdd{
+	width: 100%;
+	height: auto;
+}
+
+
+
+.cashRegProd{
+	width: 54%;
+	height: 100%;
+	display:inline-table;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	
+}
+ .cashRegRec{
+	width: 40%;
+  border-radius: 5px;
+  background-color: #eee;
+  margin-left: 20px;
+  padding: 15px;
+  text-align: center;
+  display:inline-table;
+	
+}
+.cashRegItem1{
+	width: auto;
+	height: 270px;
+
+}
+
+.cashRegItem1 .line1{
+	margin-top: 2%;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.cashRegItem2 .line2{
+	margin-top: 2%;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+
+.itemT2{
+	padding-left: 35px;
+	padding-top: 15px;
+	font-size: 42px;
+	color: green;
+
+}
+.itemT3{
+	padding-left: 35px;
+	padding-top: 15px;
+	font-size: 42px;
+	color: green;
+}
+.cashRegItem2{
+	width: auto;
+	height: 270px;
+	margin-top: 15px;
+	display: inline-block;
+
+}
+.cashRegItem3{
+	width: auto;
+	height: 260px;
+	margin-top: 15px;
+	display: inline-block;
+	
+	}
+
+
+
+/*booking*/
+
+.cashRegItem1 p{
+	font-size: 20px;
+	padding-left: 35px;
+	padding-top: 15px;
+}
+.itemT1{
+	padding-left: 35px;
+	padding-top: 15px;
+	font-size: 42px;
+	color: green;
+	display: inline-block;
+}
+
+.price1{
+	font-size: 23px;
+	padding-left: 37%;
+	display: inline;
+	font-weight: normal;
+}
+
+.day1Text{
+	font-size: 4px;
+	display: inline;
+}
+
+.cashRegItem2 p{
+	font-size: 20px;
+	padding-left: 35px;
+	padding-top: 25px;
+}
+
+.itemT2{
+	padding-left: 35px;
+	padding-top: 15px;
+	font-size: 42px;
+	color: green;
+	display: inline-block;
+}
+
+.price2{
+	font-size: 23px;
+	padding-left: 37%;
+	display: inline;
+	font-weight: normal;
+}
+
+.day2Text{
+	font-size: 4px;
+	display: inline;
+}
+
+
+.cashRegItem3 p{
+	font-size: 20px;
+	padding-left: 35px;
+	padding-top: 25px;
+}
+
+.itemT3{
+	padding-left: 35px;
+	padding-top: 15px;
+	font-size: 42px;
+	color: green;
+	display: inline-block;
+}
+
+.price3{
+	font-size: 23px;
+	padding-left: 37%;
+	display: inline;
+	font-weight: normal;
+}
+
+.day3Text{
+	font-size: 4px;
+	display: inline;
+}
+
+
+/*button*/
+
+.cashRegItem1 .button1{
+	width: 300px;
+	height: 50px;
+	margin-left: auto;
+	margin-top: 2%;
+	cursor: pointer;
+}
+.cashRegItem2 .button2{
+	width: 300px;
+	height: 50px;
+	margin-left: auto;
+	margin-top: 2%;
+	cursor: pointer;
+}
+.cashRegItem3 .button3{
+	width: 300px;
+	height: 50px;
+	margin-left: auto;
+	margin-top: 2%;
+	cursor: pointer;
+}
+.SendB{
+ 
+	width: 300px;
+	height: 50px;
+	position: relative;
+	top: 90%;
+	left: 5%;
+	
+}
+
+
+/*JS*/
+#cartItem{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: white;
+	border-bottom: 1px solid #aaa;
+	border-radius: 3px;
+	margin: 10px 10px;
+	font-size: 18px;;
+	
+  }
+  .head{
+	background-color: green;
+	border-radius: 3px;
+	height: 40px;
+	padding: 10px;
+	margin-bottom: 20px;
+	color: white;
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+  }
+  .foot{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0px;
+	padding: 10px 0px;
+	border-top: 1px solid #333;
+  }
+
+
+
+  .details{
+	display:block;
+	column-gap: 20px;
+	margin-top: 40px;
+	margin-left: 130px;
+}
+
+.check-T{
+	display:flex;
+	column-gap: 180px;
+	
+}
+
+.check-I{
+	display:flex;
+	column-gap: 140px;
+}
+
+.check-out{
+	margin-left: 40px;
+	display: flex;
+}
+
+.check-in{
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.Date{
+	height: 50px;
+	width: 150px;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 20px;
+	display: block;
+	
+  }
+
+.adults{
+	margin-bottom: 10px;
+	margin-top: 30px;
+	display: flex;
+}
+
+.pax{
+	height: 50px;
+	width: 150px;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 20px;
+	display: block;
+}
+
+.details2{
+	display:block;
+	align-items: left;
+	column-gap: 20px;
+	margin-left: 130px;
+}
+
+.mop-T{
+	display:flex;
+	column-gap: 185px;
+}
+
+.mop-I{
+	display:flex;
+	column-gap: 140px;
+}
+
+.mop{
+	display: flex;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	margin-left: 35px;
+}
+#MOP{
+	border-radius: 20px;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	display: block;
+	margin-left: 0px;
+}
+
+.details3{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	margin-left: 10px;
+	font-size: 26px;
+}
+
+.det-P{
+	display: flex;
+	margin-top: 10px;
+	font-size: 18px;
+	margin-left: 10px;
+	margin-bottom: 50px;
+
+}
+
+
+.img-Details{
+	margin: 50px 10px;
+	width: 97%;
+	height: 100px;
+	border: 2px solid white;
+	background-image: url("images/frame1.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*text input*/
+.day1{
+	height: 50px;
+	width: 100px;
+	margin-left: 35px;
+	margin-right: 19%;
+	padding: 10px;
+}
+.day2{
+	height: 50px;
+	width: 100px;
+	margin-left: 35px;
+	margin-right: 19%;
+	padding: 10px;
+}
+.day3{
+	height: 50px;
+	width: 100px;
+	margin-left: 35px;
+	margin-right: 19%;
+	padding: 10px;
+}
